@@ -1,0 +1,71 @@
+@font-face {
+  font-family: poppinsBold;
+  src: url("..//assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppinsRegular;
+  src: url("..//assets/fonts/Poppins-Regular.ttf");
+}
+:root {
+  --blueGradiant: #3b2a9f;
+  --purpleGradient: #5141aa;
+  --orange: #fa8305;
+  --box_bg: #1c140f;
+}
+
+.f-bold {
+  font-family: poppinsBold;
+}
+.f-regular {
+  font-family: poppinsRegular;
+}
+.bg-blueGradiant{
+  background-color: var(--blueGradiant);
+}
+.bg-orange{
+  background-color: var(--orange);
+}
+.bg-purpleGradient{
+  background-color: var(--purpleGradient);
+}
+.bg-box_bg{
+  background-color: var(--box_bg);
+}
+
+.pic-Main {
+  position: relative;
+  left: 100px;
+  width: 500px;
+}
+.pic-MiniMain1 {
+  position: absolute;
+  top: 80px;
+  left: 320px;
+  width: 70px;
+}
+.pic-MiniMain2 {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 100px;
+}
+.pic-MiniMain3 {
+  position: absolute;
+  top: 230px;
+  width: 90px;
+}
+.image_Cards {
+  width: 250px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.image_Cover {
+  width: 1100px;
+  height: 420px;
+  object-fit: cover;
+  object-position: 0px -15px;
+  border-radius: 30px;
+}
+
