@@ -10631,7 +10631,10 @@ textarea.form-control-lg {
   }
 
   .me-lg-6 {
-    margin-right: 40rem !important;
+    margin-right: 30rem !important;
+  }
+  .me-lg-7 {
+    margin-right: 20rem !important;
   }
 
   .me-lg-auto {
